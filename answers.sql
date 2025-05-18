@@ -54,7 +54,6 @@ ORDER BY
     OrderID, Product;
 
 -- To see the result as a new table (optional):
-
 CREATE TABLE ProductDetail_1NF AS
 WITH RECURSIVE ProductSplit AS (
     SELECT
